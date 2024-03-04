@@ -10,6 +10,7 @@ public class Esercizio2 {
         System.out.println("Inserisci la terza stringa");
             String stringa3 = scanner.nextLine();
         System.out.println("Ecco la stringa : " + concatOfString(stringa1, stringa2, stringa3));
+        System.out.println("Ecco la stringa inversa : " + concatOfString(stringa3, stringa2, stringa1));
             scanner.close();
     }
     public static String concatOfString(String stringa1, String stringa2, String stringa3) {
